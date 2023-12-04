@@ -48,15 +48,13 @@
 
 html,
 body {
+  display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
 	font-family: 'DM Sans', sans-serif;
   letter-spacing: -0.5px;
 
-}
-
-.container {
-  margin: 0 auto;
-  padding: 0 15px;
-  max-width: 1200px;
   /* Light mode */
 	background-color: var(--page-bg);
 	color: var(--text-color);
@@ -127,7 +125,6 @@ body {
 .logo strong {
 	font-weight: 700;
 }
-
 
 .nav-list {
 	display: flex;
