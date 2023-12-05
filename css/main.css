@@ -396,6 +396,31 @@ body {
 	margin-top: 0.5em;
 }
 
+/* Skills list */
+
+.skills-list {
+	margin: 0 auto;
+	max-width: 570px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 40px;
+	text-align: center;
+}
+
+.skills-list a {
+	color: var(--accent);
+}
+
+.skills-list__item {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.skills-list__item p + p {
+	margin-top: 0.5em;
+}
+
 /* Footer */
 
 .footer {
